@@ -8,4 +8,19 @@
 body {
     min-height: 100vh;
     line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: var(--Blue);
+}
+
+:root{
+    --Blue: hsl (216,1,0);
+    --White: hsl (0,0,1);
+    --bcgColor: hsl (212,0,1);
 }
