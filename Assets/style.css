@@ -18,6 +18,23 @@ body {
     width: 1000px;
     height: 550px;
     background-color: var(--White);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.firstContainer{
+    width: 500px;
+    height: 100%;
+    padding: 20px;
+}
+
+.secondContainer{
+    background-color: var(--Blue);
+    width: 500px;
+    height: 100%;
+    border-radius: 0px 20px 20px 0;
 }
 
 :root{
