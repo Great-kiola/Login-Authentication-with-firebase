@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,7 +18,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container{
+.container {
     width: 1000px;
     height: 550px;
     background-color: var(--White);
@@ -27,21 +28,49 @@ body {
     border-radius: 10px;
 }
 
-.firstContainer{
+.firstContainer {
     width: 500px;
     height: 100%;
-    padding: 20px;
+    padding: 80px;
 }
 
-.secondContainer{
+
+.signWithButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.signWithButton .btn {
+    border: 1px solid #ccc;
+    background-color: transparent;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.signWithButton .btn.google {
+    margin-right: 10px;
+}
+
+.signWithButton .btn img {
+    width: 25px;
+}
+
+
+.secondContainer {
     background-color: var(--Blue);
     width: 500px;
     height: 100%;
     border-radius: 0px 10px 10px 0;
 }
 
-:root{
-    --Blue: rgba(6, 90,216, 1);
+:root {
+    --Blue: rgba(6, 90, 216, 1);
     --White: rgba(255, 255, 255, 1);
     --bcgColor: rgba(213, 219, 226, 1);
     --VeryPaleBlue: hsl(230, 100%, 99%);
