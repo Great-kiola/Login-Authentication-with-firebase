@@ -49,8 +49,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px;
+    padding: 9px;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .signWithButton .btn.google {
@@ -58,7 +59,8 @@ body {
 }
 
 .signWithButton .btn img {
-    width: 25px;
+    width: 20px;
+    margin-right: 5px;
 }
 
 
