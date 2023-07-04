@@ -32,9 +32,6 @@ body {
     width: 500px;
     height: 100%;
     padding: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .headings h1{
