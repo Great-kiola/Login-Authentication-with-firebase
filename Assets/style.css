@@ -32,6 +32,18 @@ body {
     width: 500px;
     height: 100%;
     padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headings h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.headings p{
+    font-size: .7rem;
 }
 
 
@@ -76,6 +88,33 @@ input{
     border-radius: 5px;
     background-color: var(--inputBg);
     border: 1px solid #ddd;
+}
+
+.forgot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+label{
+    font-size: .7rem;
+}
+
+a{
+    font-size: .6rem;
+    text-decoration: none;
+    color: var(--Blue);
+}
+
+.Login{
+    width: 100%;
+    background-color: var(--Blue);
+    border: none;
+    padding: 10px;
+    color: var(--White);
+    font-size: .6rem;
+    margin: 20px auto;
+    border-radius: 3px;
 }
 
 
