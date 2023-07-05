@@ -20,7 +20,7 @@ body {
 
 .container {
     width: 1000px;
-    height: 550px;
+    height: 600px;
     background-color: var(--White);
     display: flex;
     align-items: center;
