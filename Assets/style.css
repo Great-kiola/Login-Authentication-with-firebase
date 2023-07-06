@@ -85,6 +85,33 @@ input{
     border-radius: 5px;
     background-color: var(--inputBg);
     border: 1px solid #ddd;
+    height: 30px;
+}
+
+input:focus{
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.inputs i{
+    position: absolute;
+}
+
+i img{
+    width: 14px;
+    position: absolute;
+    top: 7px;
+    color: #ddd;
+}
+
+input::placeholder{
+    padding: 25px;
+}
+
+.inputIcons{
+    /* padding: 20px; */
+    padding: 10px;
+    min-width: 40px;
 }
 
 .forgot{
