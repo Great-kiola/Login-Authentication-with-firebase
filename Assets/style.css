@@ -47,22 +47,22 @@ body {
 .signWithButton {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: 20px auto;
 }
 
 .signWithButton .btn {
     border: 1px solid #ddd;
     background-color: transparent;
-    width: 150px;
+    width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 9px;
+    padding: 10px;
     border-radius: 3px;
     cursor: pointer;
     font-size: .7rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .signWithButton .btn.google {
@@ -74,7 +74,7 @@ body {
     margin-right: 5px;
 }
 
-.input-box input {
+/* .input-box input {
     width: 100%;
     padding-left: 35px;
     margin-bottom: 5px;
@@ -100,9 +100,8 @@ input:focus{
 
 .inputIcons{
     /* padding: 20px; */
-    padding: 10px;
-    min-width: 40px;
-}
+    /* padding: 10px;
+    min-width: 40px; }*/
 
 .forgot{
     display: flex;
