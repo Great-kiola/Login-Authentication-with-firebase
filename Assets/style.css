@@ -76,12 +76,12 @@ body {
 
 .input-box input {
     width: 100%;
-    padding-left: 45px;
+    padding-left: 35px;
     margin-bottom: 5px;
     border-radius: 5px;
     background-color: var(--inputBg);
     border: 1px solid #ddd;
-    height: 30px;
+    height: 45px;
 }
 
 input:focus{
@@ -93,11 +93,8 @@ input:focus{
     position: absolute;
 }
 
-i img{
-    width: 14px;
-    position: absolute;
-    top: 7px;
-    color: #ddd;
+.input-box .icon i img{
+    width: 15px;
 }
 
 
