@@ -63,7 +63,6 @@ body {
     cursor: pointer;
     font-size: .7rem;
     font-weight: 600;
-    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
 }
 
 .signWithButton .btn#google {
@@ -147,6 +146,30 @@ a{
     cursor: pointer;
 }
 
+.continue {
+    position: relative;
+    margin: 25px auto;
+}
+
+.continue p{
+    position: absolute;
+    font-size: .6rem;
+    top: -7px;
+    right: 110px;
+    background-color: var(--White);
+    padding: 0px 10px;
+}
+
+.newAcct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newAcct p{
+    font-size: .6rem;
+    margin-right: 5px;
+}
 
 .secondContainer {
     background-color: var(--Blue);
@@ -177,7 +200,7 @@ a{
 
 
 .headings, .signWithButton, .inputs, .forgot {
-    margin: 25px auto;
+    margin: 18px auto;
 }
 
 :root {
