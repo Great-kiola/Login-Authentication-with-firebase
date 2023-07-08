@@ -1,8 +1,6 @@
 const toggle = document.querySelector('.toggle');
 const password = document.getElementById('password');
 
-var clicked = 20;
-
 toggle.addEventListener('click', () => {
     
     if (password.type === "password") {
