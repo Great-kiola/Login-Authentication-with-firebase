@@ -5,12 +5,23 @@ const password = document.getElementById('password');
 const google = document.getElementById('google');
 const github = document.getElementById('github');
 
+// Login button
+const login = document.getElementById('login');
+
+login.addEventListener('click', function (e) {
+    e.preventDefault();
+    alert('You have successfully logged in');
+
+});
+
 // Google Auth
 google.addEventListener('click', function(e) {
+    e.preventDefault();
     alert('google has been authenticated!');
 });
 
 github.addEventListener('click', function(e) {
+    e.preventDefault();
     alert('github has been authenticated!');
 });
 

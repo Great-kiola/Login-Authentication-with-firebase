@@ -117,7 +117,13 @@ body {
     justify-content: space-between;
 }
 
+.forgot .checkDiv{
+    display: flex;
+    align-items: center;
+}
+
 label{
+    margin-left: 5px;
     font-size: .7rem;
 }
 
@@ -127,7 +133,7 @@ a{
     color: var(--Blue);
 }
 
-.Login{
+#login{
     width: 100%;
     background-color: var(--Blue);
     border: none;
@@ -145,6 +151,31 @@ a{
     width: 500px;
     height: 100%;
     border-radius: 0px 10px 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title h1{
+    color: #fff;
+    font-size: .9rem;
+    text-align: center;
+}
+
+.title p{
+    font-size: .7rem;
+    color: #fff;
+    opacity: 45%;
+}
+
+.secondContainer img{
+    width: 400px;
+}
+
+
+.headings, .signWithButton, .inputs, .forgot {
+    margin: 25px auto;
 }
 
 :root {
