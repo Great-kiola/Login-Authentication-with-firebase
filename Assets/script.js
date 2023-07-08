@@ -11,7 +11,6 @@ const login = document.getElementById('login');
 login.addEventListener('click', function (e) {
     e.preventDefault();
     alert('You have successfully logged in');
-
 });
 
 // Google Auth
