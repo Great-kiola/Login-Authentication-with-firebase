@@ -198,6 +198,9 @@ a{
     width: 400px;
 }
 
+::placeholder{
+    font-size: .7rem;
+}
 
 .headings, .signWithButton, .inputs, .forgot {
     margin: 18px auto;
