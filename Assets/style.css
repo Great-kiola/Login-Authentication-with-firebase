@@ -74,7 +74,7 @@ body {
     margin-right: 5px;
 }
 
-/* .input-box input {
+.inputs form .input-box input{
     width: 100%;
     padding-left: 35px;
     margin-bottom: 5px;
@@ -84,24 +84,31 @@ body {
     height: 45px;
 }
 
-input:focus{
+.inputs form .input-box input:focus{
     border: 1px solid #ddd;
     outline: none;
 }
 
-.inputs i{
-    position: absolute;
+.inputs form .input-box .icon{
+    position: relative;
 }
 
-.input-box .icon i img{
+.inputs form .input-box .icon i img{
     width: 15px;
+    position: absolute;
+    top: 15px;
+    left: 12px;
 }
 
+#view-password{
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+}
 
-.inputIcons{
-    /* padding: 20px; */
-    /* padding: 10px;
-    min-width: 40px; }*/
+#view-password img{
+    width: 20px;
+}
 
 .forgot{
     display: flex;
