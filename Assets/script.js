@@ -1,20 +1,15 @@
 const toggle = document.querySelector('.toggle');
-const input = document.querySelector('input');
+const password = document.getElementById('password');
 
-var clicked = 0;
+var clicked = 20;
 
 toggle.addEventListener('click', () => {
-
-    clicked++;
-    console.log(clicked);
     
-    if (input.type === "password") {
-        input.type = "text";
+    if (password.type === "password") {
+        password.type = "text";
+        toggle.classList.replace("uil-eye-slash", "uil-eye");
     } else {
-        input.type === "password";
+        password.type = "password";
+        toggle.classList.replace("uil-eye", "uil-eye-slash")
     }
-
-    // alert("clicked");
-
-    // alert("You have been successfully clicked!");
-})
+});

@@ -102,11 +102,12 @@ body {
 
 #view-password{
     position: absolute;
-    right: 50px;
+    right: 10px;
     cursor: pointer;
+    top: 10px;
 }
 
-#view-password img{
+#view-password{
     width: 20px;
 }
 
