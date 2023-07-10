@@ -202,6 +202,10 @@ a{
     margin: 18px auto;
 }
 
+input.error{
+    outline: 1px solid red;
+}
+
 :root {
     --Blue: rgba(6, 90, 216, 1);
     --White: rgba(255, 255, 255, 1);
