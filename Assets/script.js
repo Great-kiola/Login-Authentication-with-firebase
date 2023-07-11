@@ -56,7 +56,7 @@ login.addEventListener("click", function (e) {
         input.classList.remove("error")
     }
 
-})
+});
 
 // Google Auth
 google.addEventListener('click', function (e) {
@@ -88,9 +88,9 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.0.0/firebas
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-analytics.js";
 import { getDatabase } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-database.js";
 
-import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-auth.js";
 
-// TODO: Add SDKs for Firebase products that you want to use
+// Done: Add SDKs for Firebase products that you want to use
+import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-auth.js";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
