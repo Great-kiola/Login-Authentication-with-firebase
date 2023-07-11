@@ -36,8 +36,13 @@ login.addEventListener("click", function (e) {
 
     createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
+        
         // Signed in 
         const user = userCredential.user;
+
+        set(ref(database, 'users/' + user.uid), {
+            email: email
+        })
         alert("user created");
         // ...
     })
