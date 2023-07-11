@@ -36,7 +36,7 @@ login.addEventListener("click", function (e) {
 
     createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
-        
+
         // Signed in 
         const user = userCredential.user;
 
@@ -91,7 +91,7 @@ toggle.addEventListener('click', () => {
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-analytics.js";
-import { getDatabase } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-database.js";
+import { getDatabase, set, ref } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-database.js";
 
 
 // Done: Add SDKs for Firebase products that you want to use
