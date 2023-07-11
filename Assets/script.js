@@ -43,7 +43,7 @@ login.addEventListener("click", function (e) {
         set(ref(database, 'users/' + user.uid), {
             email: email
         })
-        
+
         alert("user created");
         // ...
     })
@@ -102,7 +102,7 @@ import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyBgVUv72aruTnNFdeFHHmcWllVGBOubGUk",
+    // apiKey: "AIzaSyBgVUv72aruTnNFdeFHHmcWllVGBOubGUk",
     authDomain: "fir-project-v1-606b3.firebaseapp.com",
     projectId: "fir-project-v1-606b3",
     storageBucket: "fir-project-v1-606b3.appspot.com",
