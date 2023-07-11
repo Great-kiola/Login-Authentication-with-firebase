@@ -43,6 +43,7 @@ login.addEventListener("click", function (e) {
         set(ref(database, 'users/' + user.uid), {
             email: email
         })
+        
         alert("user created");
         // ...
     })
