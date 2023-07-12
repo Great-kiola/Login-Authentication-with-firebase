@@ -20,11 +20,11 @@ function validateEmail() {
 
     if (emailInput.value.match(validRegex)) {
         // email.style.display = "none";
-        input.classList.remove("error")
+        emailInput.classList.remove("error")
         return true;
     } else {
         // email.style.display = "flex";
-        input.classList.add("error");
+        emailInput.classList.add("error");
     }
 }
 
