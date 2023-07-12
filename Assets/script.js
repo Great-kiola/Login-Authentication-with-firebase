@@ -33,14 +33,16 @@ login.addEventListener("click", function (e) {
 
     let email = document.getElementById('email').value;
     let password = document.getElementById('password').value;
+    let username = document.getElementById('username').value;
 
-    createUserWithEmailAndPassword(auth, email, password)
+    createUserWithEmailAndPassword(auth, email, password, username)
     .then((userCredential) => {
 
         // Signed in 
         const user = userCredential.user;
 
         set(ref(database, 'users/' + user.uid), {
+            username: username,
             email: email
         })
 
@@ -102,7 +104,7 @@ import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    // apiKey: "AIzaSyBgVUv72aruTnNFdeFHHmcWllVGBOubGUk",
+    apiKey: "AIzaSyBgVUv72aruTnNFdeFHHmcWllVGBOubGUk",
     authDomain: "fir-project-v1-606b3.firebaseapp.com",
     projectId: "fir-project-v1-606b3",
     storageBucket: "fir-project-v1-606b3.appspot.com",
