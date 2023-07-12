@@ -30,7 +30,6 @@ body {
 
 .firstContainer {
     width: 500px;
-    height: 100%;
     padding: 80px;
 }
 
@@ -99,6 +98,14 @@ body {
     top: 15px;
     left: 12px;
 }
+
+.inputs form .input-box .icon i#userIcon{
+    width: 15px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
 
 #view-password{
     position: absolute;

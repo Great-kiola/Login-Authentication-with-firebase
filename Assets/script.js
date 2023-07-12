@@ -10,7 +10,7 @@ const login = document.getElementById('login');
 
 // Inputs
 let emailInput = document.getElementById('email');
-let input = document.querySelector('input');
+let input = document.querySelectorAll('input');
 
 
 // Validate email function
