@@ -19,11 +19,9 @@ function validateEmail() {
         /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
     if (emailInput.value.match(validRegex)) {
-        // email.style.display = "none";
         emailInput.classList.remove("error")
         return true;
     } else {
-        // email.style.display = "flex";
         emailInput.classList.add("error");
     }
 }
