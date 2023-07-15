@@ -77,12 +77,6 @@ google.addEventListener("click", function (e) {
             // IdP data available using getAdditionalUserInfo(result)
             // ...
 
-            set(ref(database, "users/" + user.uid), {
-                username: token,
-                email: email,
-            });
-
-
             alert("User signed in successfully!");
 
             window.location.assign('re-direct.html');
