@@ -43,6 +43,8 @@ login.addEventListener("click", function (e) {
 
             alert("user created");
             // ...
+
+            window.location.assign('re-direct.html');
         })
         .catch((error) => {
             const errorCode = error.code;
@@ -75,6 +77,8 @@ google.addEventListener("click", function (e) {
             // IdP data available using getAdditionalUserInfo(result)
             // ...
             alert("User signed in successfully!");
+
+            window.location.assign('re-direct.html');
         })
         .catch((error) => {
             // Handle Errors here.
