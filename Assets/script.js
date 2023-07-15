@@ -74,6 +74,7 @@ google.addEventListener("click", function (e) {
             const user = result.user;
             // IdP data available using getAdditionalUserInfo(result)
             // ...
+            alert("User signed in successfully!");
         })
         .catch((error) => {
             // Handle Errors here.
